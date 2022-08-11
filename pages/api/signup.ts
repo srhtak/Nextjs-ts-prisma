@@ -6,7 +6,7 @@ import prisma from "lib/prisma";
 
 export default async (req: NextApiRequest, res: NextApiResponse) => {
   const salt = bcrypt.genSaltSync();
-  const { email, password } = req.body;
+  const { email, password, name } = req.body;
 
   let user;
 
@@ -15,6 +15,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
       data: {
         email,
         password: bcrypt.hashSync(password, salt),
+        name,
       },
     });
   } catch (e) {
@@ -34,7 +35,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
   res.setHeader(
     "Set-Cookie",
-    cookie.serialize("SERHAT_ACCESS_TOKEN", token, {
+    cookie.serialize("unknown", token, {
       httpOnly: true,
       maxAge: 8 * 60 * 60,
       path: "/",

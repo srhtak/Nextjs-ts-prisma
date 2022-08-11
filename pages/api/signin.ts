@@ -26,7 +26,7 @@ export default async (req: NextApiRequest, res: NextApiResponse) => {
 
     res.setHeader(
       "Set-Cookie",
-      cookie.serialize("SERHAT_ACCESS_TOKEN", token, {
+      cookie.serialize("unknown", token, {
         httpOnly: true,
         maxAge: 8 * 60 * 60,
         path: "/",
