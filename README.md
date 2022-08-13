@@ -58,7 +58,10 @@ npx prisma init
 
 DATABASE_URL="mysql://root@127.0.0.1:3309/YOUR-DB-NAME-HERE"
 
-Once you’ve defined your data model, open a new terminal in your project directory and run this command: pscale connect YOUR-DB-NAME-HERE main --port 3309
+Once you’ve defined your data model, open a new terminal in your project directory and run this command: 
+```shell
+pscale connect YOUR-DB-NAME-HERE main --port 3309
+```
 
 In a new terminal, run this command to sync your prisma.schema with your PlanetScale schema: 
 ```shell
