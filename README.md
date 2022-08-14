@@ -8,7 +8,7 @@
 
 
 
-🎉 Boilerplate and Starter for Next.js, Prisma, PlanetScale, Tailwind CSS and TypeScript. 🔥 Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, VSCode, PostCSS, Tailwind CSS.
+🎉 Boilerplate for Next.js, Prisma, PlanetScale, Tailwind CSS and TypeScript. 🔥 Made with developer experience first: Next.js, TypeScript, ESLint, Prettier, VSCode, PostCSS, Tailwind CSS.
 
 Clone this project and use it to create your own [Next.js](https://nextjs.org) project. 
 
