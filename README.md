@@ -67,7 +67,7 @@ In a new terminal, run this command to sync your prisma.schema with your PlanetS
 ```shell
 npx prisma db push
 ```
-<img src="https://cdn.sanity.io/images/f1avhira/production/089944268d89883c50f19def997651cfe55d845d-1145x371.png" width="60%"/>
+<img src="https://cdn.sanity.io/images/f1avhira/production/089944268d89883c50f19def997651cfe55d845d-1145x371.png" width="700px"/>
 
 To verify that your database is in sync with your schema, as well as run any SQL commands, run: 
 ```shell
@@ -77,7 +77,7 @@ Run this line and replace Inquiry with an entity you defined in your schema.:
 
 describe User; //Don't forget the semicolon here.
 
-<img src="https://i.ibb.co/P9g7qd2/Screen-Shot-2022-08-13-at-22-35-46.png" width="60%"/>
+<img src="https://i.ibb.co/P9g7qd2/Screen-Shot-2022-08-13-at-22-35-46.png" width="700px"/>
 
 
 
