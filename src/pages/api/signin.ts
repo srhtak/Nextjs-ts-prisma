@@ -1,3 +1,4 @@
+/* eslint-disable import/no-anonymous-default-export */
 import brcypt from "bcrypt";
 import jwt from "jsonwebtoken";
 import cookie from "cookie";

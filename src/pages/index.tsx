@@ -1,9 +1,12 @@
-const Home = () => {
+import { trpc } from "@/utils/trpc";
+
+const IndexPage = () => {
+  const hello = trpc.useQuery(["hello", { message: "sdf" }]);
   return (
-    <div className="h-screen w-full flex justify-center items-center">
-      <h1 className="font-bold text-2xl text-green-600">HOME</h1>
+    <div>
+      <p>home</p>
     </div>
   );
 };
 
-export default Home;
+export default IndexPage;
