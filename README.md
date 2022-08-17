@@ -18,7 +18,6 @@ Clone this project and use it to create your own [Next.js](https://nextjs.org) p
 - [x] Prisma installed and schema added
 - [x] API has been written for sign up and sign in.
 - [x] Cookie session added for token.
-- [ ] API reorganized with trpc
 
 Built-in feature from Next.js:
 
