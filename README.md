@@ -64,7 +64,7 @@ pscale connect YOUR-DB-NAME-HERE main --port 3309
 
 In a new terminal, run this command to sync your prisma.schema with your PlanetScale schema: 
 ```shell
-npx prisma db push
+npm run db
 ```
 <img src="https://cdn.sanity.io/images/f1avhira/production/089944268d89883c50f19def997651cfe55d845d-1145x371.png" width="700px"/>
 
